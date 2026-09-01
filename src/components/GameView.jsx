@@ -4,7 +4,7 @@ import { sliceImage, shuffle, getLabel } from "../utils/sliceImage.js";
 import Timer from "./Timer.jsx";
 import Leaderboard from "./Leaderboard.jsx";
 
-const CELL_SIZE = 100;
+const CELL_SIZE = 140;
 
 export default function GameView({
   puzzle,
